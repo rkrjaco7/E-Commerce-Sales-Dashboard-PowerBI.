@@ -21,30 +21,31 @@ Dynamic Filtering: Implemented Slicers for Quarter and State-level granularity.
 
 1. Data Cleaning & Transformation (Power Query)
    
-Performed ETL (Extract, Transform, Load) operations to clean the raw "Madhav Store" CSV data.
+   Performed ETL (Extract, Transform, Load) operations to clean the raw "Madhav Store" CSV data.
 
-Handled data type conversions (e.g., converting text strings to Date formats).
+   Handled data type conversions (e.g., converting text strings to Date formats).
 
-Used Group By and Conditional Columns for data categorization.
+   Used Group By and Conditional Columns for data categorization.
 
 2. Data Modeling
    
-Established a One-to-Many relationship between the Orders and Details tables using a unique Order ID.
+   Established a One-to-Many relationship between the Orders and Details tables using a unique Order ID.
 
-Optimized the schema for efficient filtering across the dashboard.
+   Optimized the schema for efficient filtering across the dashboard.
 
 3. DAX (Data Analysis Expressions)
 
    Created calculated columns and measures to derive business KPIs.
+   
    Formula Example (Average Order Value):$$AOV = \frac{\text{Total Amount}}{\text{Total Quantity}}$$
 
-4. Data Visualization
+5. Data Visualization
    
-Bar & Column Charts: For profit and sales comparison.
+   Bar & Column Charts: For profit and sales comparison.
 
-Donut Charts: For category-wise sales distribution.
+   Donut Charts: For category-wise sales distribution.
 
-Cards: For high-level KPI visibility (Total Profit, Total Quantity, AOV).
+   Cards: For high-level KPI visibility (Total Profit, Total Quantity, AOV).
 
 #How to Use
 
