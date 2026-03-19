@@ -16,3 +16,24 @@ Geographic Analysis: Analyzed sales performance across different Indian states t
 Category Breakdown: Monitored the most popular product categories (Clothing, Electronics, Furniture) and their contribution to total revenue.
 
 Dynamic Filtering: Implemented Slicers for Quarter and State-level granularity.
+
+#Technical Skills Demonstrated
+
+1. Data Cleaning & Transformation (Power Query)
+   
+Performed ETL (Extract, Transform, Load) operations to clean the raw "Madhav Store" CSV data.
+
+Handled data type conversions (e.g., converting text strings to Date formats).
+
+Used Group By and Conditional Columns for data categorization.
+
+2. Data Modeling
+   
+Established a One-to-Many relationship between the Orders and Details tables using a unique Order ID.
+
+Optimized the schema for efficient filtering across the dashboard.
+
+3. DAX (Data Analysis Expressions)
+
+   Created calculated columns and measures to derive business KPIs.
+   Formula Example (Average Order Value):$$AOV = \frac{\text{Total Amount}}{\text{Total Quantity}}$$
