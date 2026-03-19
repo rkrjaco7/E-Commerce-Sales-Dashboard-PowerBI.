@@ -37,3 +37,19 @@ Optimized the schema for efficient filtering across the dashboard.
 
    Created calculated columns and measures to derive business KPIs.
    Formula Example (Average Order Value):$$AOV = \frac{\text{Total Amount}}{\text{Total Quantity}}$$
+
+4. Data Visualization
+   
+Bar & Column Charts: For profit and sales comparison.
+
+Donut Charts: For category-wise sales distribution.
+
+Cards: For high-level KPI visibility (Total Profit, Total Quantity, AOV).
+
+#How to Use
+
+Download the .pbix file from this repository.
+
+Open the file using Power BI Desktop.
+
+Interact with the Quarter and State slicers on the top right to filter the visuals
