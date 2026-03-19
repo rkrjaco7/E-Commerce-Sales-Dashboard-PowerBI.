@@ -54,3 +54,9 @@ Download the .pbix file from this repository.
 Open the file using Power BI Desktop.
 
 Interact with the Quarter and State slicers on the top right to filter the visuals
+
+
+#Project Screenshots
+
+<img width="1919" height="1017" alt="Screenshot 2026-03-19 205445" src="https://github.com/user-attachments/assets/149cbf64-a3c7-4272-b49a-4c02f4f663bc" />
+
